@@ -1,6 +1,6 @@
 const express    = require("express")
 const bodyParser = require("body-parser")
-const Events     = require("./src/events")
+const Events     = require("./events")
 const util       = require("util")
 const app        = express();
 
