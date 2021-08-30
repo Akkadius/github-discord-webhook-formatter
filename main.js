@@ -41,7 +41,7 @@ function handleRequest(req, res) {
 
 app.get("/", (req, res) => {
   res.send(
-    "This address is not meant to be accessed by a web browser. Please read the readme on GitHub at https://github.com/falconerd/discord-bot-github"
+    "This address is not meant to be accessed by a web browser."
   );
 });
 
